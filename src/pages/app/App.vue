@@ -1,6 +1,6 @@
 <template>
-    <div class="fifa-interview-task1">
-        <span class="fifa-interview-task1__header">
+    <div class="responsive-header-container">
+        <span class="responsive-header-container__header">
             Task {{ taskNumber }} - {{ headerLabel }}
         </span>
         <Header />
@@ -23,7 +23,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-.fifa-interview-task1 {
+.responsive-header-container {
     display: flex;
     justify-content: center;
     align-items: center;
