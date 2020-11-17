@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const webpackConfig = {
 	entry: './src/main.js',
-	output: path.resolve(__dirname, '../public/'),
+	output: path.resolve(__dirname, '../docs/'),
 	module: {
 		rules: [
 			{
