@@ -1,0 +1,15 @@
+@mixin bp($point) {
+  @if $point == mobile {
+    @media (max-width: $mobile-screen) {
+      @content;
+    }
+  } @else if($point == standard) {
+    @media (min-width: $standard-screen) {
+      @content;
+    }
+  } @else if($point == wide) {
+    @media (min-width: $wide-screen) {
+      @content;
+    }
+  }
+}
